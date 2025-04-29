@@ -6,12 +6,12 @@ const config = {
   */
 
   // 🔐 Passcode Page
-  correctPasscode: "0000", // Change this to any 4-digit code (the passcode for access)
+  correctPasscode: "0122", // Change this to any 4-digit code (the passcode for access)
   passcodeTitle: "Enter Passcode", // Title displayed on the passcode entry page
-  successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
+  successMessage: "Yipeeeeeeeeeeee!!", // Message shown upon successful passcode entry
   redirectMessage: "Redirecting...", // Message displayed while redirecting after success
-  incorrectPasscodeMessage: "Incorrect passcode, hint: our anniversary date!", // Message shown for incorrect passcode
-  cancelButtonText: "Cancel", // Text for the cancel button
+  incorrectPasscodeMessage: "Incorrect passcode, hint: our special day!", // Message shown for incorrect passcode
+  cancelButtonText: "Clear", // Text for the cancel button
 
   // 🔍 Question Page
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
