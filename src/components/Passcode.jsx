@@ -85,7 +85,7 @@ function Passcode() {
                 {/* Cancel Button */}
                 <button
                     onClick={handleCancel}
-                    className="text-lg text-white/90 hover:text-white active:text-white/70 transition-colors"
+                    className="px-6 py-2 rounded-md bg-zinc-800/50 text-lg text-white/90 hover:text-white active:text-white/70 transition-colors"
                 >
                     {config.cancelButtonText}
                 </button>
