@@ -17,16 +17,19 @@ const config = {
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Why is my bf so cute?", // Example trending search query
-    "Why does Rheina love him more?", // Another example query
-    `Rheina's birthdate (coz her bf forgets)`, // A personalized trending search
+    "Why is my boyfriend so cutie patootie?", // Example trending search query
+    "Why do I look so pretty?",
+    "What does our future look like?",
+    "Does Romelio love me so much? (ABA OO! DI NA DAPAT TINATANONG YAN)",
+    "Sauce ba ang inuuna sa Pancit Canton o noodles?",
+    "Neki itlog alog alog",
   ],
-  proTip: 'Pro tip: try searching "How long have we been together?" ;)', // Helpful tip for users
+  proTip: 'Pro tip: try searching "How long have we been together?" <3', // Helpful tip for users
 
   // ⏳ Timer Page
   anniversaryDate: "2024-01-22", // 📅 Set your anniversary date here (used for the timer)
   timerTitle: "We've been together for:", // Title displayed on the timer page
-  timerMessage: "... and still counting <3", // Message shown alongside the timer
+  timerMessage: "... and still counting! And it will never stop in our lifetime. Hanggang kamatayan na to!", // Message shown alongside the timer
   timeUnits: {
     days: "Days", // Label for days in the timer
     hours: "Hours", // Label for hours in the timer
@@ -35,7 +38,7 @@ const config = {
   },
 
   // 📸 Recap Page
-  recapTitle: "Let's recap our time together", // Title for the recap page
+  recapTitle: "Let's look back on what happened last year!", // Title for the recap page
   clickMeText: "Click me!", // Text prompting users to interact
 
   recapSections: [
@@ -44,81 +47,80 @@ const config = {
     { label: "Music", path: "/recap/music", icon: "Music" }, // Section for music
   ],
 
-  // 🎵 Music Page
-  musicTitle: "Songs that remind me of you", // Title for the music page
-  musicGallery: [
-    {
-      title: "Heavenly", // Title of the song
-      artist: "Cigarettes After Sex", // Artist of the song
-      left: "5%", // Positioning on the page
-      top: "5%", // Positioning on the page
-    },
-    {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
-      left: "40%",
-      top: "15%",
-    },
-    {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
-      left: "15%",
-      top: "40%",
-    },
-    {
-      title: "Last Night on Earth",
-      artist: "Green Day",
-      left: "30%",
-      top: "75%",
-    },
-    {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
-      left: "5%",
-      top: "65%",
-    },
-    {
-      title: "Sparks",
-      artist: "Coldplay",
-      left: "25%",
-      top: "90%",
-    },
-    {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
-      left: "35%",
-      top: "50%",
-    },
-    {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
-      left: "10%",
-      top: "25%",
-    },
-  ],
-
     // 📝 Message Recap Page
     messageTitle: "Our Messages", // Title for the messages recap page
     messageGallery: [
-      { title: "September 3, 2024", description: "A beautiful day to remember." }, // Message entry
-      { title: "October 5, 2024", description: "Cherishing moments together." },
-      { title: "December 25, 2024", description: "Christmas with love ❤️" },
+      { title: "November 16, 2023", description: "Our first date! Naalala ko pa yung mga panahon na kinikilala palang natin yung isa't isa. Ang cute natin dito hehe." }, // Message entry
+      { title: "January 22, 2024", description: "It's official! Grabe mahigit isang taon na pala nakalipas. Ang bilis ng takbo ng oras. Sana makamit natin lahat ng mga pangarap natin sa buhay. Note: first time kong tanggalin face mask ko dito hehe" },
+      { title: "January 24, 2025", description: "Our first anniversary! Fresh pa rin sa memory ko yung mga bagay na ginawa natin sa buong taon. Sana hindi ka magsawa sa akin ha. LOOK AT US! We look so mature here! Handang handa na kong harapin lahat ng kasama ka." },
     ],
   
     // 📸 Picture Recap Page
     pictureTitle: "Our Pictures", // Title for the pictures recap page
     pictureGallery: [
-      { title: "January 1, 2024", description: "New Year's Celebration 🎉" }, // Picture entry
-      { title: "February 14, 2024", description: "Valentine's Day 💕" },
-      { title: "March 10, 2024", description: "Beach trip memories 🏖️" },
+      { title: "February 14, 2024", description: "Valentine's Day 💕 Bagay na bagay talaga tayo! Memorable yung parehas pa tayo ng gift dito huhu buti nalang hindi same song yung music box na binili nating dalawa. KYOOOOT!" }, // Picture entry
+      { title: "July 27, 2024", description: "Pinto Art Museum! Grabe naka-dalawang balik tayo dito kasi nalaman natin na sarado pala sya nung araw yon huhu. Literal na nag-Antipolo lang tayo para kumain sa 711. Sana makabalik tayo sa Antipolo kasi malayo sya sa syudad." },
+      { title: "December 14, 2024", description: "Stardew Valley! Gusto kong ilagay dito yung mga gaming memories natin. Isa ito sa mga bagay na nagpalapit sa ating dalawa. Gamer god ka talaga mahal ko! Ang lakas mo! Super worth it talaga ng pagbili natin ng game na 'to." },
     ],
-  
+
+    // 🎵 Music Page
+  musicTitle: "Songs that remind me of you", // Title for the music page
+  musicGallery: [
+    {
+      title: "Be With You", // Title of the song
+      artist: "The Ridley", // Artist of the song
+      left: "5%", // Positioning on the page
+      top: "5%", // Positioning on the page
+    },
+    {
+      title: "Dito Muna",
+      artist: "Munimuni",
+      left: "40%",
+      top: "15%",
+    },
+    {
+      title: "Here, There And Everywhere",
+      artist: "The Beatles",
+      left: "15%",
+      top: "40%",
+    },
+    {
+      title: "Pag-ibig Fortune Cookie",
+      artist: "MNL48",
+      left: "30%",
+      top: "75%",
+    },
+    {
+      title: "Kay Ganda Mo",
+      artist: "Frank Ely",
+      left: "5%",
+      top: "65%",
+    },
+    {
+      title: "When Will My Life Begin?",
+      artist: "Mandy Moore",
+      left: "25%",
+      top: "90%",
+    },
+    {
+      title: "Mamma Mia",
+      artist: "ABBA",
+      left: "35%",
+      top: "50%",
+    },
+    {
+      title: "Popular",
+      artist: "Ariana Grande",
+      left: "10%",
+      top: "25%",
+    },
+  ],
 
   // 💌 Love Letter Page
-  loveLetterMessage: "Hi, I love you so much💖", // Message displayed on the love letter page
+  loveLetterMessage: "Happy Birthday Love! 💖 I hope you enjoy your day! I love you so much.", // Message displayed on the love letter page
 
   // 🎇 Closing Page
-  closingMessage: "Thank you for everything, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
+  closingMessage: "Thank you for everything, my love! 💖 I wish you many wonderful years ahead! Aalagaan at mamahalin kita hanggang sa huling hininga mo.", // Closing message displayed
 
   /* 
   ████████████████████████████████████████
