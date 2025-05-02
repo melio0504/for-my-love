@@ -51,16 +51,16 @@ const config = {
     messageTitle: "Our Messages", // Title for the messages recap page
     messageGallery: [
       { title: "November 16, 2023", description: "Our first date! Naalala ko pa yung mga panahon na kinikilala palang natin yung isa't isa. Ang cute natin dito hehe." }, // Message entry
-      { title: "January 22, 2024", description: "It's official! Grabe mahigit isang taon na pala nakalipas. Ang bilis ng takbo ng oras. Sana makamit natin lahat ng mga pangarap natin sa buhay. Note: first time kong tanggalin face mask ko dito hehe" },
-      { title: "January 24, 2025", description: "Our first anniversary! Fresh pa rin sa memory ko yung mga bagay na ginawa natin sa buong taon. Sana hindi ka magsawa sa akin ha. LOOK AT US! We look so mature here! Handang handa na kong harapin lahat ng kasama ka." },
+      { title: "January 22, 2024", description: "It's official! Grabe mahigit isang taon na pala nakalipas. Ang bilis ng takbo ng oras. Sana makamit natin lahat ng mga pangarap natin sa buhay. Also, first time kong tanggalin face mask ko dito hehe" },
+      { title: "January 24, 2025", description: "Our first anniversary! Fresh pa rin sa memory ko yung mga bagay na ginawa natin sa buong taon. Look at us! We look so mature here! Excited na ko sa future na gagawin natin." }, 
     ],
   
     // 📸 Picture Recap Page
     pictureTitle: "Our Pictures", // Title for the pictures recap page
     pictureGallery: [
       { title: "February 14, 2024", description: "Valentine's Day 💕 Bagay na bagay talaga tayo! Memorable yung parehas pa tayo ng gift dito huhu buti nalang hindi same song yung music box na binili nating dalawa. KYOOOOT!" }, // Picture entry
-      { title: "July 27, 2024", description: "Pinto Art Museum! Grabe naka-dalawang balik tayo dito kasi nalaman natin na sarado pala sya nung araw yon huhu. Literal na nag-Antipolo lang tayo para kumain sa 711. Sana makabalik tayo sa Antipolo kasi malayo sya sa syudad." },
-      { title: "December 14, 2024", description: "Stardew Valley! Gusto kong ilagay dito yung mga gaming memories natin. Isa ito sa mga bagay na nagpalapit sa ating dalawa. Gamer god ka talaga mahal ko! Ang lakas mo! Super worth it talaga ng pagbili natin ng game na 'to." },
+      { title: "July 27, 2024", description: "Pinto Art Museum! Grabe naka-dalawang balik tayo dito kasi nalaman natin na sarado pala sya nung araw yon huhu. Literal na nag-Antipolo lang tayo para kumain sa 711 huhu. Sorry ulit." },
+      { title: "December 14, 2024", description: "Stardew Valley! Gusto kong ilagay dito yung mga gaming memories natin. Isa ito sa mga bagay na nagpalapit sa ating dalawa. Super worth it talaga ng pagbili natin ng game na 'to." },
     ],
 
     // 🎵 Music Page
